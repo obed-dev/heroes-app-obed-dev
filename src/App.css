@@ -1,0 +1,40 @@
+/* General styling for the container */
+
+
+.container {
+    padding: 20px;
+  }
+  
+  /* Styling for the image */
+  .img-thumbnail {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the list items */
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the heading */
+  h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the button */
+  .btn-outline-info {
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  

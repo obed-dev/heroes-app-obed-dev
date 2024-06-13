@@ -18,16 +18,18 @@ const onNavigateBack = () => {
 
 
   
-  if (!hero) {
-    return <Navigate   to="/marvel"/>
-  }
+ const heroImageUrl = `./assets/heroes/${id}.jpg`; // usando github pages
+ 
+ if (!hero) {
+     return <Navigate to="/marvel" />;
+ }
 
 
   return ( 
     <div className="container mt-5">
     <div className="row">
       <div className="col-12 col-md-4 mb-3" >
-        <img src={`/assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail w-100 animate__animated animate__fadeInLeft "  />
+        <img src={heroImageUrl} alt={hero.superhero} className="img-thumbnail w-100 animate__animated animate__fadeInLeft "  />
       </div>
       <div className="col-12 col-md-8">
         <h3>{hero.superhero}</h3>

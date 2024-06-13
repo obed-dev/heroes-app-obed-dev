@@ -18,7 +18,7 @@ const onNavigateBack = () => {
 
 
   
- const heroImageUrl = `./assets/heroes/${id}.jpg`; // usando github pages
+ const heroImageUrl = `/assets/heroes/${id}.jpg`; // usando github pages
  
  if (!hero) {
      return <Navigate to="/marvel" />;
